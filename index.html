@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Air Duct, Dryer Vent & Chimney Cleaning in Atlanta, GA | Fresh Air Duct Cleaning</title>
+  <meta name="description" content="Air duct, dryer vent and chimney cleaning in Atlanta, Buckhead, Marietta, Roswell, Decatur and nearby. Air duct cleaning promo $99 per AC unit. Dryer vent cleaning from $79. Free inspection." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://freshairductcleaningatl.com" />
+
+  <!-- Schema.org JSON-LD para SEO Local en Atlanta -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Fresh Air Duct Cleaning",
+    "url": "https://freshairductcleaningatl.com",
+    "logo": "https://freshairductcleaningatl.com/Gemini_Generated_Image_i6p760i6p760i6p7.jpg",
+    "telephone": "+1-404-824-6867",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Atlanta",
+      "addressRegion": "GA",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Buckhead", "Decatur", "Atlanta", "Chamblee", "Roswell",
+      "Alpharetta", "Sandy Springs", "Marietta", "Norcross",
+      "Kennesaw", "Lawrenceville", "Duluth", "Cumming"
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Basic air duct cleaning (1 AC unit)" },
+        "price": "99",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Deep air duct cleaning" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Dryer vent cleaning" },
+        "price": "79",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Chimney sweeping" }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Tipografía: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" />
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #FFFFFF;
+      --ink: #0B3FA6;
+      --muted: #3D5A8F;
+      --line: rgba(220, 230, 247, 0.75);
+      --soft: rgba(228, 243, 255, 0.62);
+      --card-glass: rgba(255, 255, 255, 0.78);
+      --v: 255, 255, 255;
+      --link: #0B72E8;
+      --btn: #0D82FF;
+      --royal: #0A5FD6;
+      --navy: #072B6B;
+      --mint: #9DFFEA;
+      --font: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+      --services-collage: url("watermarked_img_4559967646713888989.jpg");
+      box-sizing: border-box;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: #07122B;
+        --ink: #E7EEFF;
+        --muted: #A3B4D6;
+        --line: rgba(27, 43, 82, 0.8);
+        --soft: rgba(13, 27, 62, 0.62);
+        --card-glass: rgba(7, 18, 43, 0.76);
+        --v: 7, 18, 43;
+        --link: #6DB4FF;
+      }
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #07122B;
+      --ink: #E7EEFF;
+      --muted: #A3B4D6;
+      --line: rgba(27, 43, 82, 0.8);
+      --soft: rgba(13, 27, 62, 0.62);
+      --card-glass: rgba(7, 18, 43, 0.76);
+      --v: 7, 18, 43;
+      --link: #6DB4FF;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    /* IMPORTANTE PARA MÓVILES: html y body transparentes para no tapar el video */
+    html {
+      scroll-padding-top: 90px;
+      scroll-behavior: smooth;
+      background-color: transparent;
+    }
+
+    body {
+      margin: 0;
+      background-color: transparent;
+      color: var(--ink);
+      font: 400 1rem/1.65 var(--font);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* =========================================================
+       VIDEO DE FONDO FIJO COMPATIBLE CON iOS / ANDROID & PC
+       ========================================================= */
+    .bg-video-wrap {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+      background: #07122B url("watermarked_img_385707935273539550.jpg") 62% 25% / cover no-repeat;
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
+    }
+
+    .bg-video-wrap video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 62% 25%;
+      display: block;
+    }
+
+    /* Velo translúcido encima del video (z-index: 1) */
+    .bg-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(
+        90deg,
+        rgba(var(--v), 0.80) 0%,
+        rgba(var(--v), 0.48) 52%,
+        rgba(var(--v), 0.10) 100%
+      );
+    }
+
+    /* Ajuste especial para Celulares: encuadra al técnico y hace el velo mucho más ligero */
+    @media (max-width: 819px) {
+      .bg-video-wrap {
+        background-position: 68% 18%;
+      }
+      .bg-video-wrap video {
+        object-position: 68% 18%;
+      }
+      .bg-overlay {
+        background: linear-gradient(
+          180deg,
+          rgba(var(--v), 0.08) 0%,
+          rgba(var(--v), 0.25) 38%,
+          rgba(var(--v), 0.58) 100%
+        );
+      }
+    }
+
+    /* Todo el contenido de la página va en z-index: 2 sobre el video */
+    header, main, footer {
+      position: relative;
+      z-index: 2;
+    }
+
+    h1, h2, h3, p, li, summary {
+      text-shadow: 0 0 14px rgba(var(--v), 0.9);
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 0.5em;
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: clamp(2.1rem, 7.5vw, 4rem);
+      font-weight: 800;
+    }
+
+    h2 {
+      font-size: clamp(1.65rem, 5vw, 2.4rem);
+      font-weight: 800;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin: 0 0 1em;
+      max-width: 60ch;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .wrap {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    /* BOTONES */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: 999px;
+      font: 700 1rem var(--font);
+      text-decoration: none;
+      border: 2px solid var(--btn);
+      cursor: pointer;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      text-shadow: none;
+    }
+
+    .btn-main {
+      background: var(--btn);
+      color: #fff;
+      box-shadow: 0 8px 22px rgba(13, 130, 255, 0.35);
+    }
+
+    .btn-main:hover {
+      transform: translateY(-2px);
+      background: #006be6;
+      box-shadow: 0 12px 28px rgba(13, 130, 255, 0.5);
+    }
+
+    .btn-alt {
+      background: rgba(var(--v), 0.78);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: var(--link);
+    }
+
+    .btn-alt:hover {
+      background: var(--btn);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .btn:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible {
+      outline: 3px solid #00B2FF;
+      outline-offset: 2px;
+    }
+
+    /* =========================================================
+       1. HEADER CON EL LOGO EN ALTA CALIDAD
+       ========================================================= */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(var(--v), 0.72);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    header .wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .logo {
+      display: block;
+      height: 58px;
+      width: auto;
+      background: #FFFFFF;
+      border-radius: 14px;
+      padding: 5px 14px;
+      border: 1px solid rgba(11, 63, 166, 0.12);
+      box-shadow: 0 6px 18px rgba(7, 18, 43, 0.12);
+      object-fit: contain;
+      transition: transform 0.25s ease;
+    }
+
+    .brand:hover .logo {
+      transform: scale(1.02);
+    }
+
+    .logo-fallback {
+      display: none;
+      height: 58px;
+      width: auto;
+      background: #FFFFFF;
+      border-radius: 14px;
+      padding: 5px 14px;
+      border: 1px solid rgba(11, 63, 166, 0.12);
+      box-shadow: 0 6px 18px rgba(7, 18, 43, 0.12);
+    }
+
+    .nav-menu {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-menu a {
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 700;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+
+    .nav-menu a:hover {
+      color: var(--btn);
+    }
+
+    @media (min-width: 820px) {
+      .logo, .logo-fallback {
+        height: 82px;
+      }
+    }
+
+    @media (max-width: 819px) {
+      header .btn, .nav-menu {
+        display: none;
+      }
+    }
+
+    /* =========================================================
+       2. HERO SECTION (Con ventana visual en móviles para ver el video)
+       ========================================================= */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    .hero .wrap {
+      padding-top: 210px; /* En celular deja 210px libres arriba para ver el video en acción */
+      padding-bottom: 44px;
+    }
+
+    .hero .txt {
+      max-width: 530px;
+      background: rgba(var(--v), 0.64);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      padding: 26px;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      box-shadow: 0 18px 40px rgba(7, 18, 43, 0.14);
+    }
+
+    .atl {
+      display: inline-block;
+      background: var(--royal);
+      color: var(--mint);
+      padding: 0.04em 0.28em 0.1em;
+      border-radius: 18px;
+      font-size: clamp(2.6rem, 11vw, 5.4rem);
+      letter-spacing: -0.03em;
+      margin-bottom: 0.14em;
+      text-shadow: none;
+      box-shadow: 0 10px 24px rgba(10, 95, 214, 0.35);
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 22px 0 18px;
+    }
+
+    .proof {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-weight: 700;
+      color: var(--ink);
+      font-size: 0.92rem;
+    }
+
+    .proof li::before {
+      content: "✓ ";
+      color: #00A3FF;
+    }
+
+    @media (min-width: 820px) {
+      .hero .wrap {
+        min-height: 560px;
+        display: flex;
+        align-items: center;
+        padding-top: 64px;
+        padding-bottom: 64px;
+      }
+      .hero .txt {
+        padding: 32px;
+      }
+    }
+
+    /* 3. BANDA DE OFERTA ($99 PROMO - Translúcida para ver el video detrás) */
+    .offer {
+      background: rgba(10, 95, 214, 0.82);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      color: var(--mint);
+      padding: 48px 0;
+      border-top: 1px solid rgba(157, 255, 234, 0.3);
+      border-bottom: 1px solid rgba(157, 255, 234, 0.3);
+    }
+
+    .offer * {
+      text-shadow: none;
+    }
+
+    .offer .wrap {
+      display: grid;
+      gap: 24px;
+    }
+
+    .offer h2 {
+      color: var(--mint);
+      margin: 0 0 8px;
+    }
+
+    .offer p {
+      color: #D5FFF6;
+    }
+
+    .offer ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .offer li::before {
+      content: "✓ ";
+      color: var(--mint);
+    }
+
+    .offer .btn {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--mint);
+    }
+
+    .offer .btn:hover {
+      background: var(--mint);
+      color: var(--navy);
+    }
+
+    .offer .price {
+      font: 800 3.4rem/1 var(--font);
+      color: var(--mint);
+      letter-spacing: -0.04em;
+      text-shadow: 0 0 22px rgba(157, 255, 234, 0.55);
+      margin: 10px 0 16px;
+    }
+
+    @media (min-width: 820px) {
+      .offer .wrap {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: center;
+      }
+    }
+
+    /* 4. TARJETAS DE SERVICIOS CON RECORTE AUTOMÁTICO DEL COLLAGE */
+    .plans {
+      display: grid;
+      gap: 22px;
+      margin-top: 28px;
+    }
+
+    @media (min-width: 820px) {
+      .plans {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .plan {
+      background: rgba(10, 95, 214, 0.84);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(157, 255, 234, 0.28);
+      border-radius: 20px;
+      padding: 24px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+      box-shadow: 0 14px 32px rgba(7, 18, 43, 0.22);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .plan:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(10, 95, 214, 0.4);
+    }
+
+    .plan:first-child {
+      border: 2px solid var(--mint);
+    }
+
+    .plan * {
+      text-shadow: none;
+    }
+
+    .plan-img {
+      width: 100%;
+      height: 205px;
+      border-radius: 14px;
+      overflow: hidden;
+      background-color: var(--navy);
+      position: relative;
+      border: 1px solid rgba(157, 255, 234, 0.25);
+    }
+
+    .quadrant-sprite {
+      width: 100%;
+      height: 100%;
+      background-image: var(--services-collage);
+      background-size: 200% 200%;
+      background-repeat: no-repeat;
+      transition: transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .plan:hover .quadrant-sprite {
+      transform: scale(1.06);
+    }
+
+    .q-top-left {
+      background-position: 0% 0%;
+    }
+    .q-bottom-right {
+      background-position: 100% 100%;
+    }
+    .q-top-right {
+      background-position: 100% 0%;
+    }
+    .q-bottom-left {
+      background-position: 0% 100%;
+    }
+
+    .plan h3, .plan .pr {
+      color: var(--mint);
+      margin: 0;
+    }
+
+    .plan .pr {
+      font: 800 2.5rem/1 var(--font);
+      letter-spacing: -0.03em;
+      text-shadow: 0 0 22px rgba(157, 255, 234, 0.5);
+    }
+
+    .plan .pr.sm {
+      font-size: 1.6rem;
+    }
+
+    .plan .pr span, .plan .when {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #D5FFF6;
+      letter-spacing: 0;
+      margin: 0;
+    }
+
+    .plan ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    .plan li::before {
+      content: "✓ ";
+      color: var(--mint);
+    }
+
+    .plan .btn-main {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy);
+      justify-self: start;
+    }
+
+    .plan .btn-main:hover {
+      background: var(--mint);
+      color: var(--navy);
+      border-color: var(--mint);
+    }
+
+    /* INFO CALLOUT & TRIO CARDS */
+    .info {
+      background: var(--card-glass);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--btn);
+      border-radius: 16px;
+      padding: 22px 24px;
+      margin: 28px 0 8px;
+      box-shadow: 0 10px 26px rgba(11, 63, 166, 0.08);
+    }
+
+    .info h3 {
+      margin: 0 0 0.4em;
+      color: var(--link);
+    }
+
+    .info p {
+      color: var(--ink);
+      margin: 0;
+      max-width: none;
+    }
+
+    .trio {
+      display: grid;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    @media (min-width: 820px) {
+      .trio {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .trio article {
+      background: var(--card-glass);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 10px 24px rgba(11, 63, 166, 0.06);
+      transition: transform 0.25s ease;
+    }
+
+    .trio article:hover {
+      transform: translateY(-4px);
+    }
+
+    .trio p {
+      margin: 0;
+    }
+
+    /* PASOS (STEPS) */
+    .steps-box {
+      background: var(--card-glass);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px;
+    }
+
+    .steps {
+      counter-reset: s;
+      list-style: none;
+      padding: 0;
+      margin: 24px 0 0;
+      display: grid;
+      gap: 20px;
+    }
+
+    .steps li {
+      counter-increment: s;
+      padding-left: 56px;
+      position: relative;
+      color: var(--muted);
+    }
+
+    .steps li::before {
+      content: counter(s);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid var(--btn);
+      background: rgba(var(--v), 0.9);
+      color: var(--link);
+      font: 800 1.05rem var(--font);
+      display: grid;
+      place-items: center;
+    }
+
+    .steps strong {
+      display: block;
+      color: var(--ink);
+      font-size: 1.1rem;
+    }
+
+    /* BANDA DE CIUDADES (AREABAND) */
+    .areaband {
+      background: rgba(10, 95, 214, 0.85);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 48px 0;
+      border-top: 1px solid rgba(157, 255, 234, 0.3);
+      border-bottom: 1px solid rgba(157, 255, 234, 0.3);
+    }
+
+    .areaband * {
+      text-shadow: none;
+    }
+
+    .areaband .big {
+      font: 800 clamp(2.2rem, 10vw, 4.8rem)/1 var(--font);
+      color: var(--mint);
+      letter-spacing: -0.03em;
+    }
+
+    .areaband p {
+      color: #fff;
+      font-size: 1.15rem;
+      margin: 0.6em 0 1.2em;
+      max-width: none;
+    }
+
+    .cities {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .areaband .cities li {
+      background: var(--navy);
+      border: 1px solid rgba(157, 255, 234, 0.3);
+      color: #fff;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 9px 18px;
+    }
+
+    /* RESEÑAS Y PREGUNTAS FRECUENTES */
+    .soft {
+      background: var(--soft);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .quotes {
+      display: grid;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    @media (min-width: 820px) {
+      .quotes {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    blockquote {
+      margin: 0;
+      padding: 24px;
+      background: var(--card-glass);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      color: var(--ink);
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(11, 63, 166, 0.06);
+    }
+
+    blockquote small {
+      display: block;
+      margin-top: 12px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .faq-box {
+      background: var(--card-glass);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 26px;
+    }
+
+    details {
+      border-bottom: 1px solid var(--line);
+      padding: 16px 0;
+    }
+
+    details:last-child {
+      border-bottom: 0;
+    }
+
+    summary {
+      cursor: pointer;
+      font: 700 1.05rem var(--font);
+      color: var(--ink);
+    }
+
+    details p {
+      margin: 10px 0 0;
+    }
+
+    /* FORMULARIO DE RESERVA */
+    .form-card {
+      background: var(--card-glass);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 30px;
+      max-width: 600px;
+      box-shadow: 0 18px 40px rgba(11, 63, 166, 0.1);
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    label {
+      font-weight: 700;
+      display: grid;
+      gap: 6px;
+      color: var(--ink);
+    }
+
+    input, select, textarea {
+      font: inherit;
+      padding: 13px 15px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: var(--bg);
+      color: var(--ink);
+      width: 100%;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* FOOTER Y BARRA MÓVIL */
+    footer {
+      padding: 40px 0 100px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      background: var(--soft);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+
+    footer p {
+      margin: 0 0 0.8em;
+    }
+
+    .footer-logo {
+      height: 54px;
+      width: auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 5px 12px;
+      margin-bottom: 14px;
+      object-fit: contain;
+    }
+
+    .callbar {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      gap: 10px;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+      background: rgba(var(--v), 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1px solid var(--line);
+      z-index: 999;
+    }
+
+    .callbar .btn {
+      flex: 1;
+      text-align: center;
+      padding: 12px 8px;
+    }
+
+    @media (min-width: 820px) {
+      .callbar {
+        display: none;
+      }
+      footer {
+        padding-bottom: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- VIDEO DE FONDO FIJO EN TODA LA PÁGINA (PC + CELULAR) -->
+  <div class="bg-video-wrap" aria-hidden="true">
+    <video
+      id="bgVideo"
+      autoplay
+      muted
+      loop
+      playsinline
+      webkit-playsinline
+      preload="auto"
+      poster="watermarked_img_385707935273539550.jpg"
+    >
+      <source src="Technician_cleaning_ceiling_air_…_c1408375_1080p.mp4" type="video/mp4" />
+      <source src="Technician_cleaning_ceiling_air_%E2%80%A6_c1408375_1080p.mp4" type="video/mp4" />
+      <source src="fondo.mp4" type="video/mp4" />
+    </video>
+  </div>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <!-- 1. HEADER CON TU NUEVO LOGO EN ALTA CALIDAD -->
+  <header id="top">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="Fresh Air Duct Cleaning Atlanta">
+        <img
+          class="logo"
+          src="Gemini_Generated_Image_i6p760i6p760i6p7.jpg"
+          alt="Fresh Air Duct Cleaning"
+          onerror="if(!this.dataset.try1){this.dataset.try1='1';this.src='watermarked_img_14274222576412998411.jpg';}else if(!this.dataset.try2){this.dataset.try2='1';this.src='image_d3d468.png';}else{this.style.display='none';this.nextElementSibling.style.display='block';}"
+        />
+        <svg class="logo-fallback" viewBox="0 0 380 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fresh Air Duct Cleaning">
+          <rect width="380" height="110" rx="14" fill="#FFFFFF"/>
+          <g transform="translate(18, 12)">
+            <path d="M44 6 C68 6, 86 24, 86 46 C86 68, 66 84, 44 84 C20 84, 4 66, 4 44 C4 24, 20 12, 38 12 C56 12, 68 24, 68 42 C68 56, 56 66, 42 66 C28 66, 20 56, 20 44 C20 33, 28 26, 38 26" fill="none" stroke="#081A35" stroke-width="6.5" stroke-linecap="round"/>
+            <circle cx="38" cy="26" r="4" fill="#081A35"/>
+            <path d="M40 36 L44 46 L54 50 L44 54 L40 64 L36 54 L26 50 L36 46 Z" fill="#081A35"/>
+            <path d="M53 27 L55.5 33.5 L62 36 L55.5 38.5 L53 45 L50.5 38.5 L44 36 L50.5 33.5 Z" fill="#081A35"/>
+          </g>
+          <text x="115" y="64" font-family="Plus Jakarta Sans, Arial, sans-serif" font-weight="800" font-size="60" fill="#081A35" letter-spacing="-1.5">Fresh</text>
+          <text x="117" y="91" font-family="Plus Jakarta Sans, Arial, sans-serif" font-weight="700" font-size="19.5" fill="#081A35" letter-spacing="3.5">AIR DUCT CLEANING</text>
+        </svg>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#services">Services &amp; Pricing</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#areas">Atlanta Areas</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#book">Free Inspection</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn-main" href="tel:+14048246867">📞 Call (404) 824-6867</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO SECTION -->
+    <section class="hero">
+      <div class="wrap">
+        <div class="txt gs-hero">
+          <div class="atl">ATLANTA</div>
+          <h1>Air Duct, Dryer Vent &amp; Chimney Cleaning in Atlanta, GA</h1>
+          <p>
+            Breathe cleaner, healthier indoor air today. We remove years of trapped dust, Georgia pollen, pet dander, and lint buildup with upfront flat-rate pricing.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-main" href="#book">Claim $99 Promo →</a>
+            <a class="btn btn-alt" href="tel:+14048246867">Call (404) 824-6867</a>
+          </div>
+          <ul class="proof">
+            <li>Air Duct Promo $99 / AC Unit</li>
+            <li>Dryer Vent from $79</li>
+            <li>Free Camera Inspection</li>
+            <li>Same-Day Atlanta Service</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. BANDA DE OFERTA DESTACADA -->
+    <section class="offer" data-aos="fade-up">
+      <div class="wrap">
+        <div>
+          <h2>Limited-Time Atlanta Air Duct Cleaning Special</h2>
+          <p>
+            Get your entire single-AC air duct system professionally vacuumed and inspected with zero hidden fees.
+          </p>
+          <ul>
+            <li>High-powered negative pressure HEPA extraction</li>
+            <li>All supply &amp; return registers cleaned</li>
+            <li>Complimentary furnace, blower &amp; mold inspection</li>
+            <li>Serving Atlanta, Buckhead, Marietta, Roswell &amp; Decatur</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price">$99 <span style="font-size:1.1rem;font-weight:600;color:#D5FFF6;">per AC unit</span></div>
+          <a class="btn" href="#book">Book $99 Inspection &amp; Promo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SECCIÓN DE SERVICIOS -->
+    <section id="services">
+      <div class="wrap">
+        <div data-aos="fade-up">
+          <h2>Our Air Duct, Dryer Vent &amp; Chimney Services</h2>
+          <p>Choose the right level of cleaning for your home in Metro Atlanta. Upfront quotes before any work begins.</p>
+        </div>
+
+        <div class="plans">
+          <!-- Servicio 1: Basic Air Duct Cleaning -->
+          <article class="plan" data-aos="fade-up" data-aos-delay="50">
+            <div class="plan-img" role="img" aria-label="Technician performing air duct cleaning with camera inspection">
+              <div class="quadrant-sprite q-top-left"></div>
+            </div>
+            <h3>Basic Air Duct Cleaning</h3>
+            <div class="pr">$99 <span>/ per AC unit</span></div>
+            <p class="when">Best for routine annual maintenance &amp; dust control.</p>
+            <ul>
+              <li>Negative-air vacuum connection to main line</li>
+              <li>Cleaning of all supply and return vents (1 AC unit)</li>
+              <li>Free digital camera inspection of ductwork</li>
+              <li>Airflow &amp; filter check included</li>
+            </ul>
+            <a class="btn btn-main" href="#book">Book $99 Air Duct Promo</a>
+          </article>
+
+          <!-- Servicio 2: Deep Air Duct & Sanitization -->
+          <article class="plan" data-aos="fade-up" data-aos-delay="150">
+            <div class="plan-img" role="img" aria-label="Technician sanitizing HVAC blower and furnace unit">
+              <div class="quadrant-sprite q-bottom-right"></div>
+            </div>
+            <h3>Deep Air Duct &amp; Sanitization</h3>
+            <div class="pr sm">Custom Quote <span>/ Free On-Site Estimate</span></div>
+            <p class="when">Recommended for older homes, renovations, pets, or allergy sufferers.</p>
+            <ul>
+              <li>Full rotary brush agitation inside supply &amp; return trunks</li>
+              <li>Furnace blower, evaporator coil &amp; plenum cleaning</li>
+              <li>EPA-registered antimicrobial &amp; mold treatment available</li>
+              <li>Before &amp; after photo/video documentation</li>
+            </ul>
+            <a class="btn btn-main" href="#book">Request Free Inspection</a>
+          </article>
+
+          <!-- Servicio 3: Dryer Vent Cleaning -->
+          <article class="plan" data-aos="fade-up" data-aos-delay="200">
+            <div class="plan-img" role="img" aria-label="Technician removing lint from exterior dryer vent">
+              <div class="quadrant-sprite q-top-right"></div>
+            </div>
+            <h3>Dryer Vent Cleaning</h3>
+            <div class="pr">$79 <span>starting price</span></div>
+            <p class="when">Stop clothes taking 2–3 cycles to dry &amp; prevent dryer fires.</p>
+            <ul>
+              <li>Complete lint &amp; blockage removal from dryer to exterior vent</li>
+              <li>High-torque rotary brush line sweeping</li>
+              <li>Airflow velocity test before &amp; after service</li>
+              <li>Lowers utility bills and extends dryer lifespan</li>
+            </ul>
+            <a class="btn btn-main" href="#book">Book Dryer Vent ($79)</a>
+          </article>
+
+          <!-- Servicio 4: Chimney Sweeping -->
+          <article class="plan" data-aos="fade-up" data-aos-delay="250">
+            <div class="plan-img" role="img" aria-label="Technician sweeping brick fireplace chimney">
+              <div class="quadrant-sprite q-bottom-left"></div>
+            </div>
+            <h3>Chimney Sweeping &amp; Inspection</h3>
+            <div class="pr sm">Free Inspection <span>with service</span></div>
+            <p class="when">Prepare your fireplace safely for the colder season.</p>
+            <ul>
+              <li>Creosote, soot, and debris sweeping from flue liner</li>
+              <li>Firebox, damper, and chimney cap safety check</li>
+              <li>100% dust-free containment inside your living room</li>
+              <li>Prevent smoke backup and carbon monoxide hazards</li>
+            </ul>
+            <a class="btn btn-main" href="#book">Schedule Chimney Sweep</a>
+          </article>
+        </div>
+
+        <div class="info" data-aos="fade-up">
+          <h3>Why Clean Your Air Ducts &amp; Dryer Vents in Georgia?</h3>
+          <p>
+            Atlanta's high humidity and heavy seasonal pollen get pulled directly into your HVAC system. Cleaning your ductwork removes circulating allergens, improves cooling efficiency, and eliminates musty odors.
+          </p>
+        </div>
+
+        <div class="trio" data-aos="fade-up">
+          <article>
+            <h3>1. Allergy &amp; Pollen Relief</h3>
+            <p>Extract trapped Georgia pine pollen, dust mites, and pet dander so your family breathes cleaner indoor air.</p>
+          </article>
+          <article>
+            <h3>2. Lower Energy Bills</h3>
+            <p>Unclogged ducts and clean blower fans allow your AC unit to cool your home faster with less strain.</p>
+          </article>
+          <article>
+            <h3>3. Fire Hazard Prevention</h3>
+            <p>Clogged dryer vents and creosote-filled chimneys are leading causes of residential fires. We clear them safely.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROCESO PASO A PASO -->
+    <section id="process">
+      <div class="wrap">
+        <div class="steps-box" data-aos="fade-up">
+          <h2>How Our 4-Step Cleaning Process Works</h2>
+          <ol class="steps">
+            <li>
+              <strong>1. Free Camera Inspection &amp; Upfront Quote</strong>
+              We inspect your AC ducts, furnace blower, or dryer vent line and show you the exact condition before any work starts.
+            </li>
+            <li>
+              <strong>2. Negative-Pressure HEPA Containment</strong>
+              We connect our commercial vacuum system to pull dust and debris directly into sealed containment—never into your rooms.
+            </li>
+            <li>
+              <strong>3. Rotary Brushing &amp; Agitation</strong>
+              Every supply and return vent is brushed and air-washed to dislodge stubborn buildup, lint, or mold spores.
+            </li>
+            <li>
+              <strong>4. Final Walkthrough &amp; Airflow Verification</strong>
+              We verify system airflow, seal access panels, and leave your home spotless.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ÁREAS SERVIDAS EN METRO ATLANTA -->
+    <section class="areaband" id="areas" data-aos="fade-up">
+      <div class="wrap">
+        <div class="big">SERVING METRO ATLANTA</div>
+        <p>Fast, local technicians dispatched daily across Atlanta and nearby communities:</p>
+        <ul class="cities">
+          <li>Buckhead</li>
+          <li>Decatur</li>
+          <li>Atlanta</li>
+          <li>Chamblee</li>
+          <li>Roswell</li>
+          <li>Alpharetta</li>
+          <li>Sandy Springs</li>
+          <li>Marietta</li>
+          <li>Norcross</li>
+          <li>Kennesaw</li>
+          <li>Lawrenceville</li>
+          <li>Duluth</li>
+          <li>Cumming</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. RESEÑAS DE CLIENTES -->
+    <section class="soft">
+      <div class="wrap" data-aos="fade-up">
+        <h2>What Atlanta Homeowners Say</h2>
+        <div class="quotes">
+          <blockquote>
+            "Booked the $99 air duct promo for our home in Buckhead. The technician showed us camera footage before and after. Huge difference in air quality!"
+            <small>— Amanda T., Buckhead</small>
+          </blockquote>
+          <blockquote>
+            "Our dryer took two hours to dry a load. They cleaned the vent line from $79 and pulled out a massive lint clog. Fast and super professional."
+            <small>— Marcus H., Marietta, GA</small>
+          </blockquote>
+          <blockquote>
+            "On time, polite, and wore boot covers the entire visit. They cleaned both AC units and our chimney in Roswell. Highly recommend!"
+            <small>— Rachel S., Roswell, GA</small>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. PREGUNTAS FRECUENTES (SEO FAQ) -->
+    <section id="faq">
+      <div class="wrap">
+        <div class="faq-box" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+          <details open>
+            <summary>What is included in the $99 Basic Air Duct Cleaning promo?</summary>
+            <p>The $99 promo covers basic negative-pressure air duct cleaning for 1 AC unit, including supply and return vents and a free visual inspection of your system.</p>
+          </details>
+          <details>
+            <summary>How long does air duct and dryer vent cleaning take?</summary>
+            <p>Most single-system homes in Atlanta take between 60 and 120 minutes depending on the number of vents and whether deep brush cleaning or dryer vent service is added.</p>
+          </details>
+          <details>
+            <summary>Will dust get into my house during the cleaning?</summary>
+            <p>No. Our negative-pressure HEPA vacuum system keeps the entire ductwork under suction so all dust and debris travel directly into our containment unit.</p>
+          </details>
+          <details>
+            <summary>How often should dryer vents be cleaned?</summary>
+            <p>Fire safety experts recommend cleaning your dryer vent at least once every 12 months, or sooner if clothes take longer than one cycle to dry.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. FORMULARIO DE CONTACTO / RESERVA -->
+    <section id="book">
+      <div class="wrap">
+        <div class="form-card" data-aos="fade-up">
+          <h2>Book Your $99 Promo or Free Inspection</h2>
+          <p>Call <a href="tel:+14048246867"><strong>(404) 824-6867</strong></a> or send your request below for same-day or next-day scheduling.</p>
+          <form action="mailto:info@freshairductcleaningatl.com" method="post" enctype="text/plain">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your Name" required />
+            </label>
+            <label>
+              Phone Number
+              <input type="tel" name="phone" placeholder="(404) 000-0000" required />
+            </label>
+            <label>
+              City / Area in Metro Atlanta
+              <input type="text" name="city" placeholder="e.g., Atlanta, Buckhead, Marietta" required />
+            </label>
+            <label>
+              Service Needed
+              <select name="service">
+                <option value="Basic Air Duct Cleaning ($99/AC)">Basic Air Duct Cleaning ($99 per AC unit)</option>
+                <option value="Deep Air Duct Cleaning">Deep Air Duct Cleaning &amp; Sanitization</option>
+                <option value="Dryer Vent Cleaning ($79)">Dryer Vent Cleaning (from $79)</option>
+                <option value="Chimney Sweeping">Chimney Sweeping &amp; Inspection</option>
+                <option value="Full Home Bundle">Combo: Air Ducts + Dryer Vent</option>
+              </select>
+            </label>
+            <label>
+              Additional Notes (Optional)
+              <textarea name="notes" rows="3" placeholder="Number of AC units, preferred day/time..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-main">Request Appointment Now</button>
+            <p class="note">✓ Free inspection included • No obligation</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CON EL LOGO -->
+  <footer>
+    <div class="wrap">
+      <img
+        class="footer-logo"
+        src="Gemini_Generated_Image_i6p760i6p760i6p7.jpg"
+        alt="Fresh Air Duct Cleaning"
+        onerror="if(!this.dataset.try1){this.dataset.try1='1';this.src='watermarked_img_14274222576412998411.jpg';}else{this.style.display='none';}"
+      />
+      <p><strong>Fresh Air Duct Cleaning</strong> — Air Duct, Dryer Vent &amp; Chimney Cleaning in Atlanta, GA</p>
+      <p>Phone: <a href="tel:+14048246867">+1 (404) 824-6867</a> • Website: <a href="https://freshairductcleaningatl.com">freshairductcleaningatl.com</a></p>
+      <p>© 2026 Fresh Air Duct Cleaning. Serving Atlanta, Buckhead, Decatur, Marietta, Roswell, Alpharetta &amp; Sandy Springs.</p>
+    </div>
+  </footer>
+
+  <!-- BARRA INFERIOR FIJA EN MÓVILES -->
+  <div class="callbar">
+    <a class="btn btn-main" href="tel:+14048246867">📞 Call (404) 824-6867</a>
+    <a class="btn btn-alt" href="#book">Book $99 Promo</a>
+  </div>
+
+  <!-- LIBRERÍAS DE EFECTOS: GSAP & AOS + FORZADOR DE VIDEO EN MÓVILES -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 750,
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50
+    });
+
+    gsap.from(".gs-hero > *", {
+      y: 30,
+      opacity: 0,
+      duration: 0.85,
+      stagger: 0.14,
+      ease: "power3.out",
+      delay: 0.15
+    });
+
+    // Garantiza reproducción automática del video de fondo en iOS Safari y Android Chrome
+    document.addEventListener("DOMContentLoaded", function () {
+      var v = document.getElementById("bgVideo");
+      if (v) {
+        v.muted = true;
+        v.defaultMuted = true;
+        v.setAttribute("playsinline", "");
+        v.setAttribute("webkit-playsinline", "");
+        var playPromise = v.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function () {
+            // Si el modo ahorro de batería bloquea el inicio, arranca al primer toque en pantalla
+            var startOnTouch = function () {
+              v.play();
+              document.removeEventListener("touchstart", startOnTouch);
+              document.removeEventListener("click", startOnTouch);
+            };
+            document.addEventListener("touchstart", startOnTouch, { passive: true });
+            document.addEventListener("click", startOnTouch, { passive: true });
+          });
+        }
+      }
+    });
+  </script>
+</body>
+</html>
